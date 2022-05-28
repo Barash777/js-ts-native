@@ -20,8 +20,8 @@ test('sum check', () => {
 
     // expected result
     expect(resultAB).toBe(3)
-    expect(resultAC).toBe(5)
-    expect(resultBC).toBe(6)
+    expect(resultAC).toBe(4)
+    expect(resultBC).toBe(5)
 })
 
 test('multiply check', () => {
@@ -31,9 +31,9 @@ test('multiply check', () => {
     const resultBC = mult(b, c)
 
     // expected result
-    expect(resultAB).toBe(3)
-    expect(resultAC).toBe(5)
-    expect(resultBC).toBe(15)
+    expect(resultAB).toBe(2)
+    expect(resultAC).toBe(3)
+    expect(resultBC).toBe(6)
 })
 
 test('split into the words check', () => {
