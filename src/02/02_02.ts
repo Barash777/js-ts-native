@@ -1,18 +1,18 @@
-type HouseType = {
+export type HouseType = {
     buildedAt: number
     repaired: boolean
     address: HouseAddressType
 }
-type HouseAddressType = {
+export type HouseAddressType = {
     number: number
     street: HouseAddressStreetType
 }
-type HouseAddressStreetType = {
+export type HouseAddressStreetType = {
     title: string
 }
 
 
-type GovernmentBuildingsType = {
+export type GovernmentBuildingsType = {
     type: 'HOSPITAL' | 'FIRE-STATION'
     budget: number
     staffCount: number
